@@ -12,7 +12,7 @@
 		1DB0FA8816D6D78F0055301A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB0FA8716D6D78F0055301A /* CoreGraphics.framework */; };
 		1DB0FA8E16D6D78F0055301A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DB0FA8C16D6D78F0055301A /* InfoPlist.strings */; };
 		1DB0FA9016D6D78F0055301A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0FA8F16D6D78F0055301A /* main.m */; };
-		1DB0FA9416D6D78F0055301A /* BankAccountAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0FA9316D6D78F0055301A /* BankAccountAppDelegate.m */; };
+		1DB0FA9416D6D78F0055301A /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0FA9316D6D78F0055301A /* BankAccount.m */; };
 		1DB0FA9616D6D78F0055301A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB0FA9516D6D78F0055301A /* Default.png */; };
 		1DB0FA9816D6D78F0055301A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB0FA9716D6D78F0055301A /* Default@2x.png */; };
 		1DB0FA9A16D6D78F0055301A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB0FA9916D6D78F0055301A /* Default-568h@2x.png */; };
@@ -27,8 +27,8 @@
 		1DB0FA8D16D6D78F0055301A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1DB0FA8F16D6D78F0055301A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1DB0FA9116D6D78F0055301A /* BankAccount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BankAccount-Prefix.pch"; sourceTree = "<group>"; };
-		1DB0FA9216D6D78F0055301A /* BankAccountAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankAccountAppDelegate.h; sourceTree = "<group>"; };
-		1DB0FA9316D6D78F0055301A /* BankAccountAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankAccountAppDelegate.m; sourceTree = "<group>"; };
+		1DB0FA9216D6D78F0055301A /* BankAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankAccount.h; sourceTree = "<group>"; };
+		1DB0FA9316D6D78F0055301A /* BankAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankAccount.m; sourceTree = "<group>"; };
 		1DB0FA9516D6D78F0055301A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1DB0FA9716D6D78F0055301A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1DB0FA9916D6D78F0055301A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 		1DB0FA8916D6D78F0055301A /* BankAccount */ = {
 			isa = PBXGroup;
 			children = (
-				1DB0FA9216D6D78F0055301A /* BankAccountAppDelegate.h */,
-				1DB0FA9316D6D78F0055301A /* BankAccountAppDelegate.m */,
+				1DB0FA9216D6D78F0055301A /* BankAccount.h */,
+				1DB0FA9316D6D78F0055301A /* BankAccount.m */,
 				1DB0FA8A16D6D78F0055301A /* Supporting Files */,
 			);
 			path = BankAccount;
@@ -166,7 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DB0FA9016D6D78F0055301A /* main.m in Sources */,
-				1DB0FA9416D6D78F0055301A /* BankAccountAppDelegate.m in Sources */,
+				1DB0FA9416D6D78F0055301A /* BankAccount.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
